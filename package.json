@@ -4,14 +4,12 @@
   "description": "a api to see form data send while submitting the form",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.18.2"
-  },
-  "devDependencies": {
+    "express": "^4.18.2",
     "nodemon": "^2.0.22"
   }
 }
